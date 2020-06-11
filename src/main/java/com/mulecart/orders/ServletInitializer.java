@@ -1,7 +1,9 @@
-package com.mulecart;
+package com.mulecart.orders;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
+import com.mulecart.orders.OrderServiceApplication;
 
 public class ServletInitializer extends SpringBootServletInitializer {
 
