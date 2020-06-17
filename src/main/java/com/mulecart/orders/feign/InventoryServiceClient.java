@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(url="${mulecart.inventory.url}",name="inventoryClient")
+@FeignClient(name="inventories")
 public interface InventoryServiceClient 
 {
 	@RequestMapping(method=RequestMethod.POST,path="/api/inventory/validateSku")
